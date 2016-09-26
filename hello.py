@@ -1,10 +1,11 @@
-def main():
+def greeting (msg):
+	print(msg)
 
-	print("hello")
+def main():
+	greeting("hello")
 
 if __name__=='__main__':
 	main()
-
 
 
 
